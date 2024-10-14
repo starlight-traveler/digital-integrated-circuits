@@ -14,3 +14,5 @@ DEFINE      NCSU_TechLib_tsmc04_4M2P    $CDK_DIR/lib/NCSU_TechLib_tsmc04_4M2P
 DEFINE analogLib $IC/tools.lnx86/dfII/etc/cdslib/artist/analogLib
 DEFINE functional $IC/tools.lnx86/dfII/etc/cdslib/artist/functional
 DEFINE sbaLib $IC/tools.lnx86/dfII/etc/cdslib/artist/sbaLib
+#Removed by ddDeleteObj: DEFINE lab_3 /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/lab_3
+DEFINE lab3_khup /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/lab3_khup
