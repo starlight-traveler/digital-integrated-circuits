@@ -1,4 +1,4 @@
-## Digital Integrated Circuitd Working Group
+## Digital Integrated Circuits Working Group
 ----
 
 Do the following:
