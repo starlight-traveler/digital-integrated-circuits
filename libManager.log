@@ -1,30 +1,16 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 10/30/2018 21:08 (sjfnl050) $
 \o Sub version:		sub-version  s231 
-\o Arguments:		-mpssession virtuoso19752 -mpshost student04 
+\o Arguments:		-mpssession virtuoso29365 -mpshost student04 
 \o Working Directory:	student04:/escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits
 \o 64-bit offsets
 \o Qt version: 		4.8.5
 \o Log file is "/escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/libManager.log".
 \o Opening libManager window.
 \a nrSetCurrentWindow(cdsLibManager)
-\o Loading customization file "./cdsLibMgr.il"
-\o Loading NCSU Library Manager customizations...done.
-\a nrResizeWindow(cdsLibManager list(0 0 1728 1057))
 \o changeWorkingDir("/escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits") unnecessary.
 \o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
+\a nrResizeWindow(cdsLibManager list(0 0 1728 1057))
+\o Loading customization file "./cdsLibMgr.il"
+\o Loading NCSU Library Manager customizations...done.
 \o Library Manager customization server connected.
-\a _lmgrCloseIconify("cdsLibManager" 1)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "lab3_khup"
-\a cdsLibManager->libLineEdit->value = "lab3_khup"
-\a cdsLibManager->cellListBox->value = "nor3"
-\a cdsLibManager->cellLineEdit->value = "nor3"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "nand2"
-\a cdsLibManager->cellLineEdit->value = "nand2"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"

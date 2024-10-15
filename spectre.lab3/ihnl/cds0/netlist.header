@@ -1,0 +1,5 @@
+
+// Library name: lab3_khup
+// Cell name: adv_logic
+// View name: schematic
+subckt adv_logic a b c d e y

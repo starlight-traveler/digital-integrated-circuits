@@ -1,0 +1,103 @@
+@(#)$CDS: LVS version 6.1.7-64b 12/16/2018 07:37 (sjfhw317) $
+
+Command line: /escnfs/home/csesoft/cadence/installs/IC617/tools.lnx86/dfII/bin/64bit/LVS -dir /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/LVS.lab3.part1 -l -s -t /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/LVS.lab3.part1/layout /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/LVS.lab3.part1/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/LVS.lab3.part1/layout/netlist
+       count
+        12              nets
+        8               terminals
+        5               pmos
+        5               nmos
+
+    Net-list summary for /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/LVS.lab3.part1/schematic/netlist
+       count
+        12              nets
+        8               terminals
+        5               pmos
+        5               nmos
+
+
+    Terminal correspondence points
+    N9        N8        a
+    N8        N3        b
+    N7        N9        c
+    N5        N2        d
+    N4        N11       e
+    N6        N0        gnd!
+    N10       N1        vdd!
+    N11       N5        y
+
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+
+The net-lists match.
+
+                             layout  schematic
+                                instances
+        un-matched              0       0      
+        rewired                 0       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  10      10     
+        total                   10      10     
+
+                                  nets
+        un-matched              0       0      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  12      12     
+        total                   12      12     
+
+                                terminals
+        un-matched              0       0      
+        matched but
+        different type          5       5      
+        total                   8       8      
+
+
+Probe files from /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/LVS.lab3.part1/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+? Terminal a's type in the schematic: input, in the layout: inputOutput
+? Terminal b's type in the schematic: input, in the layout: inputOutput
+? Terminal c's type in the schematic: input, in the layout: inputOutput
+? Terminal d's type in the schematic: input, in the layout: inputOutput
+? Terminal e's type in the schematic: input, in the layout: inputOutput
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/LVS.lab3.part1/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+? Terminal a's type in the layout: inputOutput, in the schematic: input
+? Terminal b's type in the layout: inputOutput, in the schematic: input
+? Terminal c's type in the layout: inputOutput, in the schematic: input
+? Terminal d's type in the layout: inputOutput, in the schematic: input
+? Terminal e's type in the layout: inputOutput, in the schematic: input
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
