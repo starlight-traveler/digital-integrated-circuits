@@ -9,24 +9,24 @@ Copyright (C) 1989-2018 Cadence Design Systems, Inc. All rights reserved
 Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA
         Security, Inc.
 
-User: rpaillet   Host: student04   HostID: 4A817C98   PID: 15815
-Memory  available: 4.7190 GB  physical: 33.4384 GB
+User: rpaillet   Host: student04   HostID: 4A817C98   PID: 9411
+Memory  available: 3.1819 GB  physical: 33.4384 GB
 Linux   : Red Hat Enterprise Linux Server release 7.8 (Maipo)
 CPU Type: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
         Socket: Processors [Frequency] (Hyperthreaded Processor)
-        0:       0 [1557.3] ( 16 ),  1 [1579.1] ( 17 ),  2 [2810.9] ( 18 )
-                 3 [2837.1] ( 19 ),  4 [2241.0] ( 20 ),  5 [2504.9] ( 21 )
-                 6 [2757.8] ( 22 ),  7 [1307.4] ( 23 )
-        1:       8 [2591.2] ( 24 ),  9 [2999.9] ( 25 ), 10 [2918.6] ( 26 )
-                11 [3000.4] ( 27 ), 12 [2163.3] ( 28 ), 13 [2467.7] ( 29 )
-                14 [2950.4] ( 30 ), 15 [1654.5] ( 31 )
+        0:       0 [2592.3] ( 16 ),  1 [2816.0] ( 17 ),  2 [2208.9] ( 18 )
+                 3 [2472.7] ( 19 ),  4 [1852.2] ( 20 ),  5 [2553.6] ( 21 )
+                 6 [2798.8] ( 22 ),  7 [2145.9] ( 23 )
+        1:       8 [1902.2] ( 24 ),  9 [2112.9] ( 25 ), 10 [2555.1] ( 26 )
+                11 [2237.4] ( 27 ), 12 [2772.1] ( 28 ), 13 [2674.1] ( 29 )
+                14 [2374.4] ( 30 ), 15 [2859.9] ( 31 )
         
-System load averages (1min, 5min, 15min) : 4.3 %, 5.8 %, 2.7 %
+System load averages (1min, 5min, 15min) : 3.9 %, 4.7 %, 4.6 %
 Hyperthreading is enabled
 
 
-Simulating `si.inp' on student04 at 3:49:44 PM, Tue Oct 15, 2024 (process id:
-        15815).
+Simulating `si.inp' on student04 at 5:55:45 PM, Tue Oct 15, 2024 (process id:
+        9411).
 Current working directory:
         /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/spectre.lab3
 Command line:
@@ -45,23 +45,19 @@ Reading file:
         /escnfs/home/csesoft/cadence/installs/NCSU/ncsu-cdk-1.6.0.beta/models/spectre/standalone/ami06N.m
 Reading file: 
         /escnfs/home/csesoft/cadence/installs/NCSU/ncsu-cdk-1.6.0.beta/models/spectre/standalone/ami06P.m
-Time for NDB Parsing: CPU = 80.299 ms, elapsed = 307.903 ms.
-Time accumulated: CPU = 124.221 ms, elapsed = 307.915 ms.
+Time for NDB Parsing: CPU = 79.792 ms, elapsed = 167.54 ms.
+Time accumulated: CPU = 117.698 ms, elapsed = 167.547 ms.
 Peak resident memory used = 48.9 Mbytes.
 
-Time for Elaboration: CPU = 18.752 ms, elapsed = 111.918 ms.
-Time accumulated: CPU = 143.073 ms, elapsed = 419.932 ms.
+Time for Elaboration: CPU = 18.628 ms, elapsed = 20.468 ms.
+Time accumulated: CPU = 136.432 ms, elapsed = 188.12 ms.
 Peak resident memory used = 56 Mbytes.
 
 
-Time for EDB Visiting: CPU = 791 us, elapsed = 790.834 us.
-Time accumulated: CPU = 143.966 ms, elapsed = 420.825 ms.
+Time for EDB Visiting: CPU = 756 us, elapsed = 756.025 us.
+Time accumulated: CPU = 137.3 ms, elapsed = 188.987 ms.
 Peak resident memory used = 56.8 Mbytes.
 
-
-Warning from spectre during initial setup.
-    WARNING (CMI-2210): V0: Period is smaller than rise+width+fall. It is reset
-        to rise+width+fall.
 
 Global user options:
 
@@ -80,8 +76,8 @@ Output statements:
            .measure 0     
                save 0     
 
-Time for parsing: CPU = 2.473 ms, elapsed = 8.08716 ms.
-Time accumulated: CPU = 146.525 ms, elapsed = 428.998 ms.
+Time for parsing: CPU = 2.184 ms, elapsed = 6.21891 ms.
+Time accumulated: CPU = 139.571 ms, elapsed = 195.293 ms.
 Peak resident memory used = 58.2 Mbytes.
 
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -98,7 +94,7 @@ Notice from spectre during IC analysis, during transient analysis `tran1'.
         dV(I0.net2) = 124.391 mV
         Use the `gmin_check' option to eliminate or expand this report.
 
-DC simulation time: CPU = 620 us, elapsed = 620.842 us.
+DC simulation time: CPU = 617 us, elapsed = 618.219 us.
 
 Notice from spectre during transient analysis `tran1'.
     No outputs were found. Loosening output filter criterion to `allpub'.
@@ -133,21 +129,21 @@ Output and IC/nodeset summary:
                  save   11      (voltage)
 
 
-Notice from spectre at time = 22.2068 ns during transient analysis `tran1'.
-    Found trapezoidal ringing on node I0.net2.
-Notice from spectre at time = 31.7278 ns during transient analysis `tran1'.
-    Found trapezoidal ringing on node I0.net2.
-Notice from spectre at time = 50.7698 ns during transient analysis `tran1'.
-    Found trapezoidal ringing on node I0.net2.
-Notice from spectre at time = 88.8538 ns during transient analysis `tran1'.
-    Found trapezoidal ringing on node I0.net2.
-Notice from spectre at time = 165.022 ns during transient analysis `tran1'.
-    Found trapezoidal ringing on node I0.net2.
+Notice from spectre at time = 21.3433 ns during transient analysis `tran1'.
+    Found trapezoidal ringing on node I0.net9.
+Notice from spectre at time = 24.4687 ns during transient analysis `tran1'.
+    Found trapezoidal ringing on node I0.net9.
+Notice from spectre at time = 30.2726 ns during transient analysis `tran1'.
+    Found trapezoidal ringing on node I0.net9.
+Notice from spectre at time = 41.0789 ns during transient analysis `tran1'.
+    Found trapezoidal ringing on node I0.net9.
+Notice from spectre at time = 61.673 ns during transient analysis `tran1'.
+    Found trapezoidal ringing on node I0.net9.
         Further occurrences of this notice will be suppressed (except in log
         file).
 
 ......9......8......7......6......5......4......3......2......1......0
-Number of accepted tran steps =             549
+Number of accepted tran steps =             1144
 
 Notice from spectre during transient analysis `tran1'.
     Trapezoidal ringing is detected during tran analysis.
@@ -155,8 +151,8 @@ Notice from spectre during transient analysis `tran1'.
 
 
 Maximum value achieved for any signal of each quantity: 
-V: V(I0.net30) = 5.147 V
-I: I(I0.V1:p) = 422.4 uA
+V: V(I0.net30) = 5.513 V
+I: I(I0.V1:p) = 516.2 uA
 If your circuit contains signals of the same quantity that are vastly different
         in size (such as high voltage circuitry combined with low voltage
         control circuitry), you should consider specifying global option
@@ -171,25 +167,25 @@ Post-Transient Simulation Summary
 
 
 During simulation, the CPU load for active processors is :
-        Spectre  5 (4.9 %)      19 (30.8 %)     25 (2.4 %)      26 (2.5 %)
-                28 (4.9 %)      
+        Spectre  3 (5.0 %)       4 (10.5 %)      5 (14.3 %)     13 (45.0 %)
+                19 (14.3 %)     26 (5.0 %)      
         Other   
-Initial condition solution time: CPU = 663 us, elapsed = 663.996 us.
-Intrinsic tran analysis time:    CPU = 29.187 ms, elapsed = 29.9761 ms.
-Total time required for tran analysis `tran1': CPU = 31.48 ms, elapsed = 36.66
-        ms.
-Time accumulated: CPU = 181.793 ms, elapsed = 472.779 ms.
+Initial condition solution time: CPU = 656 us, elapsed = 657.082 us.
+Intrinsic tran analysis time:    CPU = 57.065 ms, elapsed = 58.058 ms.
+Total time required for tran analysis `tran1': CPU = 58.869 ms, elapsed =
+        61.5699 ms.
+Time accumulated: CPU = 202.25 ms, elapsed = 265.514 ms.
 Peak resident memory used = 60.3 Mbytes.
 
 
 Notice from spectre.
-    42 notices suppressed.
+    71 notices suppressed.
 
 
-Aggregate audit (3:49:45 PM, Tue Oct 15, 2024):
-Time used: CPU = 184 ms, elapsed = 476 ms, util. = 38.6%.
-Time spent in licensing: elapsed = 15.9 ms.
-Peak memory used = 60.8 Mbytes.
-Simulation started at: 3:49:44 PM, Tue Oct 15, 2024, ended at: 3:49:45 PM, Tue
-        Oct 15, 2024, with elapsed time (wall clock): 476 ms.
-spectre completes with 0 errors, 1 warning, and 9 notices.
+Aggregate audit (5:55:45 PM, Tue Oct 15, 2024):
+Time used: CPU = 204 ms, elapsed = 269 ms, util. = 76%.
+Time spent in licensing: elapsed = 16.6 ms, percentage of total = 6.16%.
+Peak memory used = 60.7 Mbytes.
+Simulation started at: 5:55:45 PM, Tue Oct 15, 2024, ended at: 5:55:45 PM, Tue
+        Oct 15, 2024, with elapsed time (wall clock): 269 ms.
+spectre completes with 0 errors, 0 warnings, and 9 notices.

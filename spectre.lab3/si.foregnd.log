@@ -29,7 +29,8 @@ si: simSetDef().... simTimeUnit is initialized to 1e-09 .
 si: simSetDef().... simCapUnit is initialized to 1e-15 .
 si: simSetDef().... simDoNetlist is initialized to t .
 si: simSetDef().... simDoSimulate is initialized to t .
-si: simSetDef().... simNetlistHier is initialized to "nil".
+si: simSetDef().... simNetlistHier is already set to t. Redefinition to nil is
+ignored.
 si: simSetDef().... simGlobalPrefix is initialized to "nil".
 si: simSetDef().... simHierarchyPrefix is initialized to "nil".
 si: simSetDef().... simNoLeadingHierarchyDelim is initialized to "nil".
@@ -53,8 +54,10 @@ si: simSetDef().... simMustSaveFiles is initialized to (("si.env" "text")) .
 si: simSetDef().... simKnownSaveFiles is initialized to (("netlist" "netlist")
 ("control" "text") ("si.out" "text") ("si.log" "text") ("map/current"
 "stranger") ("raw/waves" "stranger")) .
-si: simSetDef().... simNotIncremental is initialized to "nil".
-si: simSetDef().... simReNetlistAll is initialized to "nil".
+si: simSetDef().... simNotIncremental is already set to t. Redefinition to nil
+is ignored.
+si: simSetDef().... simReNetlistAll is already set to t. Redefinition to nil is
+ignored.
 si: simSetDef().... simUnbindVars is initialized to (interactiveTAP
 SilosTimeScale simActions simApplicationOptionsForm simCapFileDir simCapUnit
 simCellName simCheckTermMismatchAction simCleanFileList simControlFile
