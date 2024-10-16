@@ -37,26 +37,49 @@ Compiling Diva LVS rules...
 Devices in the rules but not in the netlist:
         cap nfet pfet nmos4 pmos4
 
-The net-lists match.
+    Ill-defined correspondence points.
+
+	N6	N11  Purged because neither is a subset of the other
+	N9	N14  Purged because neither is a subset of the other
+	N12	N1  Purged because neither is a subset of the other
+	N13	N12  Accepted because one is a subset of the other
+	N5	N9  Purged because neither is a subset of the other
+	N12	N1  Purged because neither is a subset of the other
+	N7	N8  Purged because neither is a subset of the other
+	N13	N12  Accepted because one is a subset of the other
+
+
+        Device summary for layout
+                   bad  total
+            pmos     6      6
+
+
+        Device summary for schematic
+                   bad  total
+            pmos     6      6
+
+3 net-list ambiguities were resolved by random selection.
+
+The net-lists failed to match.
 
                              layout  schematic
                                 instances
-        un-matched              0       0      
-        rewired                 0       0      
+        un-matched              7       6      
+        rewired                 1       0      
         size errors             0       0      
         pruned                  0       0      
         active                  12      12     
         total                   12      12     
 
                                   nets
-        un-matched              0       0      
+        un-matched              5       5      
         merged                  0       0      
         pruned                  0       0      
         active                  14      14     
         total                   14      14     
 
                                 terminals
-        un-matched              0       0      
+        un-matched              3       3      
         matched but
         different type          0       0      
         total                   9       9      
@@ -65,12 +88,40 @@ The net-lists match.
 Probe files from /escnfs/courses/fa24-cse-30342.01/dropbox/ehamer/VLSI/digital-integrated-circuits/LVS/schematic
 
 devbad.out:
+I /P3
+? Device does not cross-match.
+I /P2
+? Device does not cross-match.
+I /P5
+? Device does not cross-match.
+I /P4
+? Device does not cross-match.
+I /P1
+? Device does not cross-match.
+I /P0
+? Device does not cross-match.
 
 netbad.out:
+N /vdd!
+? Net does not cross-match. It has 3 connections.
+N /f
+? Net does not cross-match. It has 3 connections.
+N /e
+? Net does not cross-match. It has 3 connections.
+N /net9
+? Net does not cross-match. It has 2 connections.
+N /net12
+? Net does not cross-match. It has 2 connections.
 
 mergenet.out:
 
 termbad.out:
+T -1  e /e
+? Terminal e in the schematic failed to match any terminal in the layout.
+T -1  f /f
+? Terminal f in the schematic failed to match any terminal in the layout.
+T -1  vdd! /vdd!
+? Terminal vdd! in the schematic failed to match any terminal in the layout.
 
 prunenet.out:
 
@@ -82,12 +133,46 @@ audit.out:
 Probe files from /escnfs/courses/fa24-cse-30342.01/dropbox/ehamer/VLSI/digital-integrated-circuits/LVS/layout
 
 devbad.out:
+I /+11
+? Device does not cross-match.
+I /+6
+? Device does not cross-match.
+I /+7
+? Device does not cross-match.
+I /+11
+? Device does not cross-match.
+I /+10
+? Device does not cross-match.
+I /+9
+? Device does not cross-match.
+I /+8
+? Device does not cross-match.
 
 netbad.out:
+N /14
+? Net does not cross-match. It has 0 connections.
+N /vdd!
+? Net does not cross-match. It has 5 connections.
+N /f
+? Net does not cross-match. It has 3 connections.
+N /e
+? Net does not cross-match. It has 3 connections.
+N /13
+? Net does not cross-match. It has 2 connections.
 
 mergenet.out:
 
 termbad.out:
+T /+11 S /14
+? Terminal "S" on device /+11 should be connected to /vdd! instead of /14
+T /+10 D /14
+? Terminal "D" on device /+10 should be connected to /vdd! instead of /14
+T -1  e /e
+? Terminal e in the layout failed to match any terminal in the schematic.
+T -1  f /f
+? Terminal f in the layout failed to match any terminal in the schematic.
+T -1  vdd! /vdd!
+? Terminal vdd! in the layout failed to match any terminal in the schematic.
 
 prunenet.out:
 

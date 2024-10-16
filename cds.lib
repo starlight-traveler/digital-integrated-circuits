@@ -15,4 +15,4 @@ DEFINE analogLib $IC/tools.lnx86/dfII/etc/cdslib/artist/analogLib
 DEFINE functional $IC/tools.lnx86/dfII/etc/cdslib/artist/functional
 DEFINE sbaLib $IC/tools.lnx86/dfII/etc/cdslib/artist/sbaLib
 #Removed by ddDeleteObj: DEFINE lab_3 /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/lab_3
-DEFINE lab3_khup /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/lab3_khup
+DEFINE lab3_khup /escnfs/courses/fa24-cse-30342.01/dropbox/ehamer/VLSI/digital-integrated-circuits/lab3_khup

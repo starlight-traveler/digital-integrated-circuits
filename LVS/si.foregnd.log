@@ -1,5 +1,5 @@
 si: simSetDef().... simHost is initialized to "localhost" .
-si: simSetDef().... simLoginName is initialized to "rpaillet" .
+si: simSetDef().... simLoginName is initialized to "ehamer" .
 si: simSetDef().... simHostDiffers is initialized to "nil".
 si: simSetDef().... simInteractiveSimulatorList is initialized to ("verilog") .
 si: simSetDef().... simPostAnalysisProcessingFunc is initialized to "nil".
@@ -104,7 +104,7 @@ ignored.
 si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
 is ignored.
 si: simSetDef().... correspondenceFile is already set to
-"/escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
+"/escnfs/courses/fa24-cse-30342.01/dropbox/ehamer/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
 si: simSetDef().... createXref is initialized to "nil".
 si: simSetDef().... disableLikeMatch is initialized to "nil".
 si: simSetDef().... disableRewire is initialized to "nil".
@@ -152,7 +152,7 @@ ignored.
 si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
 is ignored.
 si: simSetDef().... correspondenceFile is already set to
-"/escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
+"/escnfs/courses/fa24-cse-30342.01/dropbox/ehamer/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
 si: simSetDef().... createXref is initialized to "nil".
 si: simSetDef().... disableLikeMatch is initialized to "nil".
 si: simSetDef().... disableRewire is initialized to "nil".
@@ -178,7 +178,7 @@ ignored.
 si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
 is ignored.
 si: simSetDef().... correspondenceFile is already set to
-"/escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
+"/escnfs/courses/fa24-cse-30342.01/dropbox/ehamer/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
 si: simSetDef().... createXref is initialized to "nil".
 si: simSetDef().... disableLikeMatch is initialized to "nil".
 si: simSetDef().... disableRewire is initialized to "nil".
@@ -204,7 +204,7 @@ ignored.
 si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
 is ignored.
 si: simSetDef().... correspondenceFile is already set to
-"/escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
+"/escnfs/courses/fa24-cse-30342.01/dropbox/ehamer/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
 si: simSetDef().... createXref is initialized to "nil".
 si: simSetDef().... disableLikeMatch is initialized to "nil".
 si: simSetDef().... disableRewire is initialized to "nil".
@@ -230,7 +230,7 @@ ignored.
 si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
 is ignored.
 si: simSetDef().... correspondenceFile is already set to
-"/escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
+"/escnfs/courses/fa24-cse-30342.01/dropbox/ehamer/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
 si: simSetDef().... createXref is initialized to "nil".
 si: simSetDef().... disableLikeMatch is initialized to "nil".
 si: simSetDef().... disableRewire is initialized to "nil".
@@ -250,14 +250,16 @@ si: simSetDef().... lvsLayoutViewList is already set to ("auLvs" "extracted").
 Redefinition to ("auLvs" "extracted" "schematic") is ignored.
 si: simSetDef().... simInstViewListTable is initialized to "nil".
 si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
+si: simSetDef().... applyDeviceFixing is already set to t. Redefinition to nil
+is ignored.
 si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
 ignored.
 si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
 is ignored.
 si: simSetDef().... correspondenceFile is already set to
-"/escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
+"/escnfs/courses/fa24-cse-30342.01/dropbox/ehamer/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
+si: simSetDef().... createXref is already set to t. Redefinition to nil is
+ignored.
 si: simSetDef().... disableLikeMatch is initialized to "nil".
 si: simSetDef().... disableRewire is initialized to "nil".
 si: simSetDef().... useFileCorrespondence is initialized to "nil".
@@ -276,14 +278,16 @@ si: simSetDef().... lvsLayoutViewList is already set to ("auLvs" "extracted").
 Redefinition to ("auLvs" "extracted" "schematic") is ignored.
 si: simSetDef().... simInstViewListTable is initialized to "nil".
 si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
+si: simSetDef().... applyDeviceFixing is already set to t. Redefinition to nil
+is ignored.
 si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
 ignored.
 si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
 is ignored.
 si: simSetDef().... correspondenceFile is already set to
-"/escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
+"/escnfs/courses/fa24-cse-30342.01/dropbox/ehamer/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
+si: simSetDef().... createXref is already set to t. Redefinition to nil is
+ignored.
 si: simSetDef().... disableLikeMatch is initialized to "nil".
 si: simSetDef().... disableRewire is initialized to "nil".
 si: simSetDef().... useFileCorrespondence is initialized to "nil".
@@ -302,14 +306,16 @@ si: simSetDef().... lvsLayoutViewList is already set to ("auLvs" "extracted").
 Redefinition to ("auLvs" "extracted" "schematic") is ignored.
 si: simSetDef().... simInstViewListTable is initialized to "nil".
 si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
+si: simSetDef().... applyDeviceFixing is already set to t. Redefinition to nil
+is ignored.
 si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
 ignored.
 si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
 is ignored.
 si: simSetDef().... correspondenceFile is already set to
-"/escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
+"/escnfs/courses/fa24-cse-30342.01/dropbox/ehamer/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
+si: simSetDef().... createXref is already set to t. Redefinition to nil is
+ignored.
 si: simSetDef().... disableLikeMatch is initialized to "nil".
 si: simSetDef().... disableRewire is initialized to "nil".
 si: simSetDef().... useFileCorrespondence is initialized to "nil".
@@ -328,14 +334,16 @@ si: simSetDef().... lvsLayoutViewList is already set to ("auLvs" "extracted").
 Redefinition to ("auLvs" "extracted" "schematic") is ignored.
 si: simSetDef().... simInstViewListTable is initialized to "nil".
 si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
+si: simSetDef().... applyDeviceFixing is already set to t. Redefinition to nil
+is ignored.
 si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
 ignored.
 si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
 is ignored.
 si: simSetDef().... correspondenceFile is already set to
-"/escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
+"/escnfs/courses/fa24-cse-30342.01/dropbox/ehamer/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
+si: simSetDef().... createXref is already set to t. Redefinition to nil is
+ignored.
 si: simSetDef().... disableLikeMatch is initialized to "nil".
 si: simSetDef().... disableRewire is initialized to "nil".
 si: simSetDef().... useFileCorrespondence is initialized to "nil".
@@ -354,14 +362,16 @@ si: simSetDef().... lvsLayoutViewList is already set to ("auLvs" "extracted").
 Redefinition to ("auLvs" "extracted" "schematic") is ignored.
 si: simSetDef().... simInstViewListTable is initialized to "nil".
 si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
+si: simSetDef().... applyDeviceFixing is already set to t. Redefinition to nil
+is ignored.
 si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
 ignored.
 si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
 is ignored.
 si: simSetDef().... correspondenceFile is already set to
-"/escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
+"/escnfs/courses/fa24-cse-30342.01/dropbox/ehamer/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
+si: simSetDef().... createXref is already set to t. Redefinition to nil is
+ignored.
 si: simSetDef().... disableLikeMatch is initialized to "nil".
 si: simSetDef().... disableRewire is initialized to "nil".
 si: simSetDef().... useFileCorrespondence is initialized to "nil".
@@ -380,14 +390,16 @@ si: simSetDef().... lvsLayoutViewList is already set to ("auLvs" "extracted").
 Redefinition to ("auLvs" "extracted" "schematic") is ignored.
 si: simSetDef().... simInstViewListTable is initialized to "nil".
 si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
+si: simSetDef().... applyDeviceFixing is already set to t. Redefinition to nil
+is ignored.
 si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
 ignored.
 si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
 is ignored.
 si: simSetDef().... correspondenceFile is already set to
-"/escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
+"/escnfs/courses/fa24-cse-30342.01/dropbox/ehamer/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
+si: simSetDef().... createXref is already set to t. Redefinition to nil is
+ignored.
 si: simSetDef().... disableLikeMatch is initialized to "nil".
 si: simSetDef().... disableRewire is initialized to "nil".
 si: simSetDef().... useFileCorrespondence is initialized to "nil".
@@ -406,14 +418,16 @@ si: simSetDef().... lvsLayoutViewList is already set to ("auLvs" "extracted").
 Redefinition to ("auLvs" "extracted" "schematic") is ignored.
 si: simSetDef().... simInstViewListTable is initialized to "nil".
 si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
+si: simSetDef().... applyDeviceFixing is already set to t. Redefinition to nil
+is ignored.
 si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
 ignored.
 si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
 is ignored.
 si: simSetDef().... correspondenceFile is already set to
-"/escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
+"/escnfs/courses/fa24-cse-30342.01/dropbox/ehamer/VLSI/digital-integrated-circuits/lvs_corr_file". Redefinition to nil is ignored.
+si: simSetDef().... createXref is already set to t. Redefinition to nil is
+ignored.
 si: simSetDef().... disableLikeMatch is initialized to "nil".
 si: simSetDef().... disableRewire is initialized to "nil".
 si: simSetDef().... useFileCorrespondence is initialized to "nil".

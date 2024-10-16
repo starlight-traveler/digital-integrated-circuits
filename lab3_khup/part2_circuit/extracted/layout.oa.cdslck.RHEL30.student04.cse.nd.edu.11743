@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Wed Oct 16 18:36:25 2024 EDT
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /escnfs/courses/fa24-cse-30342.01/dropbox/ehamer/VLSI/digital-integrated-circuits/lab3_khup/part2_circuit/layout/layout.oa.cdslck
-TimeEditLocked                 Wed Oct 16 18:37:06 2024 EDT
+FilePathUsedToEditLock         /escnfs/courses/fa24-cse-30342.01/dropbox/ehamer/VLSI/digital-integrated-circuits/lab3_khup/part2_circuit/extracted/layout.oa.cdslck
+TimeEditLocked                 Wed Oct 16 18:37:35 2024 EDT

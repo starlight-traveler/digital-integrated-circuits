@@ -34,13 +34,13 @@ i 1 pmos 1 6 13 12 " m 1 l 600e-9 w 12e-6 "
 i 2 pmos 13 10 0 12 " m 1 l 600e-9 w 12e-6 "
 
 ; pmos4 Instance /+8 = auLvs device Q3
-i 3 pmos 0 11 1 12 " m 1 l 600e-9 w 12e-6 "
+i 3 pmos 0 11 12 12 " m 1 l 600e-9 w 12e-6 "
 
 ; pmos4 Instance /+7 = auLvs device Q4
-i 4 pmos 1 9 12 12 " m 1 l 600e-9 w 12e-6 "
+i 4 pmos 12 9 1 12 " m 1 l 600e-9 w 12e-6 "
 
 ; pmos4 Instance /+6 = auLvs device Q5
-i 5 pmos 12 7 1 12 " m 1 l 600e-9 w 12e-6 "
+i 5 pmos 1 7 12 12 " m 1 l 600e-9 w 12e-6 "
 
 ; nmos4 Instance /+5 = auLvs device Q6
 d nmos D G S B (p D S)
