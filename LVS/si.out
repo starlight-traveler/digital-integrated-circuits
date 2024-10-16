@@ -1,0 +1,129 @@
+@(#)$CDS: LVS version 6.1.7-64b 12/16/2018 07:37 (sjfhw317) $
+
+Command line: /escnfs/home/csesoft/cadence/installs/IC617/tools.lnx86/dfII/bin/64bit/LVS -dir /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/LVS -l -s -t /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/LVS/layout /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/LVS/layout/netlist
+       count
+        14              nets
+        9               terminals
+        6               pmos
+        6               nmos
+
+    Net-list summary for /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/LVS/schematic/netlist
+       count
+        14              nets
+        9               terminals
+        6               pmos
+        6               nmos
+
+
+    Terminal correspondence points
+    N11       N12       a
+    N10       N15       b
+    N9        N10       c
+    N7        N9        d
+    N6        N11       e
+    N5        N4        f
+    N8        N1        gnd!
+    N12       N0        vdd!
+    N13       N13       y
+
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+
+    Ill-defined correspondence points.
+
+	N6	N11  Purged because neither is a subset of the other
+	N12	N0  Purged because neither is a subset of the other
+	N5	N4  Purged because neither is a subset of the other
+	N13	N13  Purged because neither is a subset of the other
+
+
+        Device summary for layout
+                   bad  total
+            pmos     2      6
+
+
+        Device summary for schematic
+                   bad  total
+            pmos     4      6
+
+2 net-list ambiguities were resolved by random selection.
+
+The net-lists failed to match.
+
+                             layout  schematic
+                                instances
+        un-matched              2       4      
+        rewired                 0       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  12      12     
+        total                   12      12     
+
+                                  nets
+        un-matched              1       1      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  14      14     
+        total                   14      14     
+
+                                terminals
+        un-matched              0       0      
+        matched but
+        different type          0       0      
+        total                   9       9      
+
+
+Probe files from /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/LVS/schematic
+
+devbad.out:
+I /P5
+? Device does not cross-match.
+I /P4
+? Device does not cross-match.
+I /P3
+? Device does not cross-match.
+I /P2
+? Device does not cross-match.
+
+netbad.out:
+N /net9
+? Net does not cross-match. It has 2 connections.
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/LVS/layout
+
+devbad.out:
+I /+11
+? Device does not cross-match.
+I /+10
+? Device does not cross-match.
+
+netbad.out:
+N /13
+? Net does not cross-match. It has 2 connections.
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:

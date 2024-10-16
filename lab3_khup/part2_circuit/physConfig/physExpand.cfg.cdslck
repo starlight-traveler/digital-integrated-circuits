@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      rpaillet
+HostName                       student04.cse.nd.edu
+ProcessIdentifier              14132
+ProcessCreationTime_UTC        1729096326
+ProcessCreationTime_Readable   Wed Oct 16 12:32:06 2024 EDT
+AppIdentifier                  /escnfs/home/csesoft/cadence/installs/IC617/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /escnfs/courses/fa24-cse-30342.01/dropbox/rpaillet/VLSI/digital-integrated-circuits/lab3_khup/part2_circuit/physConfig/physExpand.cfg
+TimeEditLocked                 Wed Oct 16 12:49:14 2024 EDT
